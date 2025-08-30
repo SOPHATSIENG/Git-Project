@@ -8,6 +8,7 @@ body{
      /* background: linear-gradient(to left bottom, rgba(243, 241, 240, 0.988), rgba(62, 12, 226, 0.955)); */
 }
 .nav{
+    background-color: rgba(0, 0, 0, 0.628);
     width: 100%;
     position: fixed;
     display: flex;
