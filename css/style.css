@@ -35,6 +35,11 @@
     justify-content: space-around;
     color: white;
 }
+.card-contai button:hover{
+    background-color: rgba(203, 166, 92, 0.564);
+    transform: translateY(-5px);
+    transition: .5s;
+}
 .card-contai button i{
     font-size: 25px;
 }
