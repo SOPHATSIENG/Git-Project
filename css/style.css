@@ -14,11 +14,16 @@
     border-radius: 10px;
     background: #000000;
 }
+.card-black img:hover{
+    transition: .5s;
+    transform: scale(1.1);
+}
 .card-black img{
+
     border: 5px solid orange;
-    border-radius: 200px;
-    width: 200px;
-    height: 200px;
+    border-radius: 180px;
+    width: 180px;
+    height: 180px;
     margin-left: 20px;
 }
 .card-contai {
