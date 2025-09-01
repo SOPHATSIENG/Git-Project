@@ -1,0 +1,43 @@
+.our-menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+
+}
+.menu h1{
+    text-align: center;
+}
+.item-card{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.card img{
+    width: 100%;
+    border-radius: 0px 0px 0px 50px;
+}
+.card{
+    width: 25%;
+    /* box-shadow: 1px 2px 20px; */
+    background-color: black;
+    color: white;
+}
+.cost{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cost button{
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: none;
+}
+.letter{
+    padding: 23px;
+}
