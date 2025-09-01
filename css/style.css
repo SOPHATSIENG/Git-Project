@@ -2,42 +2,85 @@
     width: 100%;
     display: flex;
     justify-content: center;
+   
     
 }
 .menu ul{
     display: flex;
     list-style: none;
     gap: 50px;
+    li{
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
 
+}
+ul li a:hover{
+     background-color: rgba(0, 0, 0, 0.904);
+    padding: 6px 20px;
+    border-radius: 20px;
+    color: white;
+
+}
+#active{
+    background-color: rgba(0, 0, 0, 0.904);
+    padding: 6px 20px;
+    border-radius: 20px;
+    color: white;
 }
 .menu h1{
     text-align: center;
 }
 .item-card{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     justify-content: center;
     gap: 100px;
+    margin-top: 50px;
+    padding: 0px 40px;
 }
 .card img{
     width: 100%;
-    border-radius: 0px 0px 0px 50px;
+    border-radius: 20px 20px 0px 50px;
 }
 .card{
-    width: 25%;
-    /* box-shadow: 1px 2px 20px; */
-    background-color: black;
-    color: white;
+    font-family: Arial;
+    width: 100%;
+    box-shadow: 2px 5px 20px rgb(192, 192, 192);
+    background-color: rgba(0, 0, 0, 0.93);
+    color: rgb(231, 231, 231);
+    border-radius: 20px;
 }
 .cost{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 40px;
+}
+.cost i{
+    color: white;
+    font-size: 20px;
+}
+.cost button:hover{
+    background-color: rgb(235, 82, 26);
+    box-shadow: 1px 2px 20px rgb(255, 98, 41);
 }
 .cost button{
-    padding: 5px 20px;
+
+    padding: 10px 20px;
     border-radius: 10px;
     border: none;
+    color: white;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 .letter{
     padding: 23px;
+}
+.cost .price{
+    color: orange;
 }
