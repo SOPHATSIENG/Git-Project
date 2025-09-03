@@ -1,0 +1,81 @@
+ body {
+      font-family: Arial, sans-serif;
+      background: #fff;
+      margin: 0;
+      padding: 0;
+      
+    }
+
+    .testimonial-section {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .testimonial-section h2 {
+      font-family: 'Brush Script MT', cursive;
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+
+    .testimonial-container {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .testimonial-box {
+      background: #1e242c;
+      color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      width: 400px;
+      position: relative;
+    }
+
+    .testimonial-box p {
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    .testimonial-box h3 {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .testimonial-box span {
+      font-size: 14px;
+      color: #ddd;
+    }
+
+    .testimonial-img {
+      margin-top: 20px;
+    }
+
+    .testimonial-img img {
+      border-radius: 50%;
+      border: 6px solid #f0ddb6;
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+    }
+
+    .arrow-buttons {
+      margin-top: 30px;
+    }
+
+    .arrow-buttons button {
+      background: #d3b064;
+      border: none;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin: 0 10px;
+      cursor: pointer;
+      font-size: 22px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    
