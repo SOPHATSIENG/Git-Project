@@ -1,11 +1,12 @@
 
 # Prosess This project 
-Perpose of this project 
-### We have fore member in group :
-  - Yorm Kravvan
-  - Sao Mary
-  - Seing Sopath
-  - Voeun King
+Perpose of this project we start with different branch and then when finish we push the into mian branch.
+# Member in group :
+### Yorm Kravvan
+### Sao Mary
+### Seing Sopath
+### Voeun King
+
 
 # About branch
 ### We have ten branch :
@@ -26,7 +27,35 @@ Perpose of this project
 ![alt text](<image/image copy 7.png>)
 
 ### Next
-![alt text](image.png)
+![alt text](image-2.png)
 
 ### Our Product
 ![alt text](image-1.png)
+
+### Our Product
+![alt text](image-3.png)
+
+### Other Form
+![alt text](image-4.png)
+
+### Member My our Team
+![alt text](image-5.png)
+
+### Footer contect
+![alt text](image-6.png)
+
+
+## ✨ Features
+
+ - Orther online
+ - Find materail sport
+ - Log In Accunt
+ - Form Other And Location
+ - Button search for find buy something
+ - map can put your location
+
+## Issues
+ - Merge Error 4 time 
+ - Error push
+ - merge code mix don't flow of code
+ - Difficult when we create responsive
