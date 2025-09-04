@@ -598,6 +598,10 @@ span{
     padding: 10px 15px; 
     font-size: 12px;
   }
+  .item-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
 
   /* Head section */
   .head {
@@ -690,38 +694,4 @@ span{
 }
 
 /* Extra Small Mobile (≤480px) */
-@media (max-width: 480px) {
-  .nav-left img {
-    width: 70px;
-  }
-
-  .head h1 {
-    font-size: 28px;
-  }
-
-  .head p {
-    font-size: 12px;
-  }
-
-  .btn,
-  .bnt,
-  .card-contai button,
-  .cost button {
-    padding: 8px 20px;
-    font-size: 13px;
-  }
-
-  .card-black {
-    width: 100%;
-  }
-
-  .testimonial-box {
-    width: 90%;
-    margin: auto;
-  }
-
-  iframe {
-    height: 200px;
-  }
-}
-
+@media (max-width: 600px) and (min-width:300px){
