@@ -528,7 +528,7 @@ span{
    RESPONSIVE DESIGN
    ============================== */
 
-/* Tablet (≤1024px) */
+
 @media (max-width: 1024px) {
   /* Navigation */
   .nav-center ul {
@@ -575,7 +575,7 @@ span{
   }
 }
 
-/* Mobile (≤768px) */
+
 @media (max-width: 890px) and (min-width:700px) {
   /* Navbar */
   .nav {
@@ -689,9 +689,10 @@ span{
   gap: 50px;
 }
 .card-black{
-  /* display: flex; */
   flex-direction: row;
 }
 
-/* Extra Small Mobile (≤480px) */
+
 @media (max-width: 600px) and (min-width:300px){
+  
+}
