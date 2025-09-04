@@ -1,3 +1,7 @@
+body{
+   padding: 0px;
+    margin: 0px;
+}
 .member-container {
   font-family: Arial, sans-serif;
   background: #fff;
@@ -7,20 +11,30 @@
 
 .testimonial-section {
   text-align: center;
-  padding: 50px 20px;
+  padding: 50px 0px;
 }
+
 
 .testimonial-section h2 {
   font-family: "Brush Script MT", cursive;
   font-size: 36px;
   margin-bottom: 40px;
 }
-
+.testimonial-box:hover{
+background-color: black;
+box-shadow: 2px 4px 40px gray;
+}
+.testimonial-container div:hover{
+   transform: translateY(-5px);
+  transition: 0.5s;
+  
+  
+}
 .testimonial-container {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap;
+ display: grid;
+ grid-template-columns: auto auto;
+ justify-content: center;
+ gap: 50px 300px;
 }
 
 .testimonial-box {
@@ -116,11 +130,12 @@ iframe{
   background-color: orangered;
   box-shadow: 1px 2px 20px orangered;
 }
+
 .sport-4 {
-      margin: 0;
-      padding: 0;
+      margin: 150px 0px;
+      padding: 0px;
       font-family: Arial, sans-serif;
-      background-color: #1d2228; /* dark background */
+      background-color: black; /* dark background */
       color: #fff;
     }
 .container {
@@ -146,7 +161,9 @@ iframe{
       font-size: 36px;
       margin-bottom: 15px;
     }
-
+.men h1 ,.form-container h1{
+    font-family: 'Brush Script MT', cursive;
+}
     .content p {
       line-height: 1.6;
       color: #ddd;
@@ -162,7 +179,7 @@ iframe{
       border-radius: 25px;
       text-decoration: none;
       font-weight: bold;
-      transition: background 0.3s;
+      transition: 0.3s;
     }
 
     .btn:hover {
@@ -177,10 +194,12 @@ iframe{
 .nav{
     background-color: rgba(0, 0, 0, 0.427);
     width: 100%;
+   
     position: fixed;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    z-index: 1;
 }
 .nav {
   width: 100%;
@@ -209,6 +228,9 @@ iframe{
 
     }
 }
+nav .nav-center ul li a:hover{
+  color: orange;
+}
 .nav-right .btn:hover{
     background-color: orangered;
      box-shadow: 1px 4px 20px rgb(238, 107, 7);
@@ -228,6 +250,9 @@ iframe{
   i {
     color: white;
     font-size: 25px;
+  }
+  i:hover{
+    color:orange
   }
 }
 .footer{
@@ -294,7 +319,9 @@ footer {
     margin-bottom: 15px;
     font-size: 23px;
 }
-
+#home{
+  color: orange;
+}
 .footer-box p,
 .footer-box a {
     font-size: 15px;
@@ -401,6 +428,9 @@ footer {
 .menu h1{
     font-size: 40px;
 }
+.letter{
+  line-height: 1.5;
+}
 .menu ul{
     display: flex;
     list-style: none;
@@ -432,9 +462,9 @@ footer {
 }
 .item-card{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
     margin-top: 50px;
     padding: 0px 40px;
 }
@@ -446,9 +476,17 @@ footer {
     font-family: Arial;
     width: 100%;
     box-shadow: 2px 5px 20px rgb(192, 192, 192);
-    background-color: rgba(0, 0, 0, 0.93);
+    background-color: black;
     color: rgb(231, 231, 231);
     border-radius: 20px;
+     
+}
+.card:hover{
+  box-shadow: 2px 4px 40px gray;
+  transform: translateY(-5px);
+  transition: 0.5s;
+
+
 }
 .cost{
     display: flex;
@@ -486,3 +524,174 @@ span{
     font-size: 14px;
     color: #bbb;
 }
+/* ==============================
+   RESPONSIVE DESIGN
+   ============================== */
+
+/* Tablet (≤1024px) */
+@media (max-width: 1024px) {
+  /* Navigation */
+  .nav-center ul {
+    gap: 40px;
+  }
+
+  .nav-right {
+    gap: 15px;
+  }
+
+  .card-container {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .card-black {
+    width: 80%;
+    height: auto;
+  }
+
+  .item-card {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .form-map-1 {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Mobile (≤768px) */
+@media (max-width: 890px) and (min-width:700px) {
+  /* Navbar */
+  .nav {
+   padding: 0px;
+  }
+  .nav-left img{
+    width: 80px;
+  }
+
+  .nav-center ul {
+    gap: 15px;
+    
+  }
+
+  .nav-right {
+    gap: 15px;
+    margin-top: 10px;
+  }
+  .nav-right .btn{
+    padding: 10px 15px; 
+    font-size: 12px;
+  }
+  .item-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  /* Head section */
+  .head {
+   line-height: 1;
+     height: 50vh;
+  }
+
+  .head h1 {
+    font-size: 40px;
+  }
+
+  .head p {
+   font-size: 12px;
+  }
+
+  .head .bnt {
+    padding: 12px 25px;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  /* Cards */
+  .card-black {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .card-black img {
+    margin: 0 auto;
+  }
+
+  .testimonial-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  /* Sport section */
+  .sport-4 .container {
+    flex-direction:row;
+    padding: 20px;
+    height: 70vh;
+   
+  }
+  .member-container{
+    display: flex;
+    justify-content: center;
+  }
+.form-container h1{
+  font-size: 50px;
+}
+.testimonial-section .testimonial-container div{
+  display: flex;
+  gap: 20px;
+
+}
+  .sport-4 img {
+    width: 50%;
+    /* height: auto; */
+  }
+
+  /* Footer */
+  .footer-container {
+    /* flex-direction: column; */
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width:0px;
+    margin:0;
+    gap: 0px;
+    padding-left: 320px;
+    
+    
+  }
+  .footer{
+   
+
+    background: #1c1f26;
+    color: #fff;
+    padding: 70px 0px;
+    /* text-align: center; */
+  }
+}
+.card-container{
+  gap: 50px;
+}
+.card-black{
+  /* display: flex; */
+  flex-direction: row;
+}
+
+/* Extra Small Mobile (≤480px) */
+@media (max-width: 600px) and (min-width:300px){
